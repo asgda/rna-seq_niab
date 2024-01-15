@@ -1,0 +1,22 @@
+==========================================
+SLURM_CLUSTER_NAME = paramseva
+SLURM_ARRAY_JOB_ID = 
+SLURM_ARRAY_TASK_ID = 
+SLURM_ARRAY_TASK_COUNT = 
+SLURM_ARRAY_TASK_MAX = 
+SLURM_ARRAY_TASK_MIN = 
+SLURM_JOB_ACCOUNT = iith
+SLURM_JOB_ID = 123731
+SLURM_JOB_NAME = feature_counts
+SLURM_JOB_NODELIST = cn[002,006]
+SLURM_JOB_USER = avik.bio.iith
+SLURM_JOB_UID = 26342
+SLURM_JOB_PARTITION = standard
+SLURM_TASK_PID = 48964
+SLURM_SUBMIT_DIR = /scratch/avik.bio.iith/niab_cattle/feature_counts
+SLURM_CPUS_ON_NODE = 20
+SLURM_NTASKS = 40
+SLURM_TASK_PID = 48964
+==========================================
+==== Start ====
+Thu Dec 28 15:58:17 IST 2023

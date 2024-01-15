@@ -1,0 +1,92 @@
+
+        ==========     _____ _    _ ____  _____  ______          _____  
+        =====         / ____| |  | |  _ \|  __ \|  ____|   /\   |  __ \ 
+          =====      | (___ | |  | | |_) | |__) | |__     /  \  | |  | |
+            ====      \___ \| |  | |  _ <|  _  /|  __|   / /\ \ | |  | |
+              ====    ____) | |__| | |_) | | \ \| |____ / ____ \| |__| |
+        ==========   |_____/ \____/|____/|_|  \_\______/_/    \_\_____/
+	  v2.0.3
+
+//========================== featureCounts setting ===========================\\
+||                                                                            ||
+||             Input files : 6 BAM files                                      ||
+||                                                                            ||
+||                           SRR21623193Aligned.sortedByCoord.out.bam         ||
+||                           SRR21623194Aligned.sortedByCoord.out.bam         ||
+||                           SRR21623195Aligned.sortedByCoord.out.bam         ||
+||                           SRR21623196Aligned.sortedByCoord.out.bam         ||
+||                           SRR21623197Aligned.sortedByCoord.out.bam         ||
+||                           SRR21623198Aligned.sortedByCoord.out.bam         ||
+||                                                                            ||
+||             Output file : counts_restricted_niab.csv                       ||
+||                 Summary : counts_restricted_niab.csv.summary               ||
+||              Paired-end : yes                                              ||
+||        Count read pairs : no                                               ||
+||              Annotation : oviAri4.ncbiRefSeq.gtf (GTF)                     ||
+||      Dir for temp files : ./                                               ||
+||                                                                            ||
+||                 Threads : 32                                               ||
+||                   Level : meta-feature level                               ||
+||      Multimapping reads : counted (fractional)                             ||
+|| Multi-overlapping reads : counted                                          ||
+||   Min overlapping bases : 1                                                ||
+||                                                                            ||
+\\============================================================================//
+
+//================================= Running ==================================\\
+||                                                                            ||
+|| Load annotation file oviAri4.ncbiRefSeq.gtf ...                            ||
+||    Features : 600835                                                       ||
+||    Meta-features : 27755                                                   ||
+||    Chromosomes/contigs : 741                                               ||
+||                                                                            ||
+|| Process BAM file SRR21623193Aligned.sortedByCoord.out.bam...               ||
+||    Paired-end reads are included.                                          ||
+||    The reads are assigned on the single-end mode.                          ||
+||    Total alignments : 125116476                                            ||
+||    Successfully assigned alignments : 58487735 (46.7%)                     ||
+||    Running time : 0.12 minutes                                             ||
+||                                                                            ||
+|| Process BAM file SRR21623194Aligned.sortedByCoord.out.bam...               ||
+||    Paired-end reads are included.                                          ||
+||    The reads are assigned on the single-end mode.                          ||
+||    Total alignments : 99093018                                             ||
+||    Successfully assigned alignments : 43023183 (43.4%)                     ||
+||    Running time : 0.10 minutes                                             ||
+||                                                                            ||
+|| Process BAM file SRR21623195Aligned.sortedByCoord.out.bam...               ||
+||    Paired-end reads are included.                                          ||
+||    The reads are assigned on the single-end mode.                          ||
+||    Total alignments : 121189990                                            ||
+||    Successfully assigned alignments : 54997920 (45.4%)                     ||
+||    Running time : 0.12 minutes                                             ||
+||                                                                            ||
+|| Process BAM file SRR21623196Aligned.sortedByCoord.out.bam...               ||
+||    Paired-end reads are included.                                          ||
+||    The reads are assigned on the single-end mode.                          ||
+||    Total alignments : 102243896                                            ||
+||    Successfully assigned alignments : 38885010 (38.0%)                     ||
+||    Running time : 0.10 minutes                                             ||
+||                                                                            ||
+|| Process BAM file SRR21623197Aligned.sortedByCoord.out.bam...               ||
+||    Paired-end reads are included.                                          ||
+||    The reads are assigned on the single-end mode.                          ||
+||    Total alignments : 126351196                                            ||
+||    Successfully assigned alignments : 49716038 (39.3%)                     ||
+||    Running time : 0.12 minutes                                             ||
+||                                                                            ||
+|| Process BAM file SRR21623198Aligned.sortedByCoord.out.bam...               ||
+||    Paired-end reads are included.                                          ||
+||    The reads are assigned on the single-end mode.                          ||
+||    Total alignments : 117651266                                            ||
+||    Successfully assigned alignments : 45443347 (38.6%)                     ||
+||    Running time : 0.11 minutes                                             ||
+||                                                                            ||
+|| Write the final count table.                                               ||
+|| Write the read assignment summary.                                         ||
+||                                                                            ||
+|| Summary of counting results can be found in file "counts_restricted_niab.  ||
+|| csv.summary"                                                               ||
+||                                                                            ||
+\\============================================================================//
+

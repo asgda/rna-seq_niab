@@ -1,0 +1,15 @@
+Status	../STAR_run/SRR21623193Aligned.sortedByCoord.out.bam	../STAR_run/SRR21623194Aligned.sortedByCoord.out.bam	../STAR_run/SRR21623195Aligned.sortedByCoord.out.bam	../STAR_run/SRR21623196Aligned.sortedByCoord.out.bam	../STAR_run/SRR21623197Aligned.sortedByCoord.out.bam	../STAR_run/SRR21623198Aligned.sortedByCoord.out.bam
+Assigned	58487735	43023183	54997920	38885010	49716038	45443347
+Unassigned_Unmapped	17549094	12742906	18216114	23819692	31398408	27548206
+Unassigned_Read_Type	0	0	0	0	0	0
+Unassigned_Singleton	0	0	0	0	0	0
+Unassigned_MappingQuality	0	0	0	0	0	0
+Unassigned_Chimera	0	0	0	0	0	0
+Unassigned_FragmentLength	0	0	0	0	0	0
+Unassigned_Duplicate	0	0	0	0	0	0
+Unassigned_MultiMapping	0	0	0	0	0	0
+Unassigned_Secondary	0	0	0	0	0	0
+Unassigned_NonSplit	0	0	0	0	0	0
+Unassigned_NoFeatures	49079647	43326929	47975956	39539194	45236750	44659713
+Unassigned_Overlapping_Length	0	0	0	0	0	0
+Unassigned_Ambiguity	0	0	0	0	0	0
